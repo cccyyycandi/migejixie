@@ -1,0 +1,133 @@
+.diyi-img{
+	position: absolute;
+	z-index: 9;
+	top: 10rem;
+	left: 5rem;
+	width: 900px;
+}
+.diyi-img-xs{
+	position: absolute;
+	z-index: 9;
+	top: 50rem;
+	right: 5rem;
+	width: 1100px;
+}
+.dier-text p{
+	color: white;
+}
+.neirong .zhongwen h1{
+	letter-spacing:.1em;
+}
+.neirong .zhongwen h3{
+	letter-spacing:5px;
+}
+.sjdiyi-img,.sjmiaoshu{
+	position: absolute;
+	z-index: 9;
+}
+.col-sm-2 p:nth-child(odd){
+		font-weight: bold;
+}
+
+.zhanshisitu{
+	max-width: 1920px;
+}
+@media screen and (min-width:4096px) {
+	.diyi-img{
+		width: 1000px;
+		top: 10rem;
+		left: 73rem;
+	}
+	.hengtu{
+		width: 1920px;
+	}
+}
+@media screen and (min-width:2560px) {
+	.diyi-img{
+		width: 1000px;
+		top: 10rem;
+		left: 25rem;
+	}
+	.hengtu{
+		width: 1920px;
+	}
+	.diyi-img-xs{
+		width: 1000px;
+		top: 50rem;
+		right: 25rem;
+	}
+}
+@media screen and (min-width:1921px){
+	.xshengtuzhanshi img{
+		max-width: 1920px;
+	}
+}
+@media screen and (max-width:1440px){
+	.diyi-img{
+		width: 800px;
+		top: 7rem;
+		left: 2rem;
+	}
+	.diyi-img-xs{
+		width: 800px;
+		top: 40rem;
+		right: 2rem;
+	}
+}
+@media screen and (max-width:1024px) {
+	.diyi-img{
+		width: 550px;
+		top: 7rem;
+		left: 2rem;
+	}
+	.diyi-img-xs{
+		width: 550px;
+		top: 30rem;
+		right: 2rem;
+	}
+}
+@media screen and (max-width:768px) {
+	.diyi-img{
+		width: 400px;
+		top: 6rem;
+		left: 1rem;
+	}
+	.diyi-img-xs{
+		width: 400px;
+		top: 23rem;
+		right: 2rem;
+	}
+}
+@media screen and (max-width:575px) {
+	.sjdiyi-img{
+		transform:rotate(90deg);
+		min-width: 500px;
+		top: 50%;
+		right: 1rem;
+	}
+	.sjmiaoshu{
+		color: white;
+		top: 35em;
+		font-size: 30px;
+		transform: rotate(90deg);
+		letter-spacing:5px;
+	}
+	.neirong .zhongwen h1{
+		letter-spacing:10px;
+	}
+	.xshengtuzhanshi img{
+		min-width: 100%;
+	}
+}
+@media screen and (max-width:425px) {
+	.sjmiaoshu{
+		top: 30em;
+		left: -50px;
+	}
+}
+@media screen and (max-width:375px) {
+	.sjmiaoshu{
+		top: 28em;
+		left: -100px;
+	}
+}

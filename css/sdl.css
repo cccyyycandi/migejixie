@@ -1,0 +1,194 @@
+.diyi-img {
+	position: absolute;
+	z-index: 9;
+	top: 45rem;
+	right: 1rem;
+	width: 900px;
+}
+.diyi-img-eng{
+	width: 1100px;
+	top: 50rem;
+}
+.dier-text {
+	position: absolute;
+	bottom: 50px;
+}
+.col-sm-2 p,
+.col-sm-2 h2 {
+	color: white;
+}
+.col-sm-2 h2 {
+	font-weight: bold;
+	font-size: 40px;
+}
+.col-sm-2 p {
+	font-size: 35px;
+}
+.peizhi112 {
+	background-color: #474747;
+}
+.peizhi112 p {
+	color: #fff;
+}
+.peizhibiao11 p {
+	font-size: 20px;
+}
+
+.row .eng{
+	width: 100%;
+	padding: 10px 0;
+}
+
+
+@media screen and (min-width:2560px) {
+	.diyi-img {
+		right: 22rem;
+	}
+	.centext-img{
+		width: 2560px;
+	}
+}
+@media screen and (max-width:1830px) {
+	.diyi-img {
+		top: 35rem;
+		right: 1rem;
+		width: 700px;
+	}
+	.row .col-sm-2{
+		width: 300px;
+	}
+	.row .eng{
+		width: 100%;
+	}
+	.centext-img{
+		width: 1440px;
+	}
+}
+@media screen and (max-width:1440px) {
+	.diyi-img {
+		top: 35rem;
+		right: 1rem;
+		width: 700px;
+	}
+	.row .col-sm-2{
+		width: 300px;
+	}
+	.row .eng{
+		width: 100%;
+	}
+	.centext-img{
+		width: 1440px;
+	}
+}
+@media screen and (max-width:1400px) {
+	.diyi-img {
+		top: 26rem;
+		right: 1rem;
+		width: 500px;
+	}
+	.row .col-sm-2{
+		width: 300px;
+	}
+	.row .col-2-cc{
+		width: 400px;
+	}
+	.row .eng{
+		width: 100%;
+		padding: 0;
+	}
+	.row .eng p{
+		font-size: 2em;
+	}
+	.row .eng h2{
+		font-size: 2em;
+	}
+	.centext-img{
+		width: 1024px;
+	}
+}
+@media screen and (max-width:1024px) {
+	.diyi-img {
+		top: 26rem;
+		right: 1rem;
+		width: 500px;
+	}
+	.row .col-sm-2{
+		width: 300px;
+	}
+	.row .col-2-cc{
+		width: 400px;
+	}
+	.row .eng{
+		width: 100%;
+		padding: 0;
+	}
+	.row .eng p{
+		font-size: 2em;
+	}
+	.row .eng h2{
+		font-size: 2em;
+	}
+	.centext-img{
+		width: 1024px;
+	}
+}
+@media screen and (max-width:768px) {
+	.diyi-img {
+		top: 20rem;
+		right: 1rem;
+		width: 400px;
+	}
+	.dier-text{
+		bottom: 0.5rem;
+	}
+	.row .col-sm-2{
+		width: 300px;
+		border: 1px solid #fff;
+		border-radius: 30px;
+		margin: 5px;
+	}
+	.row .col-2-cc{
+		width: 400px;
+	}
+	.centext-img{
+		width: 1024px;
+	}
+	.row .eng{
+		width: 100%;
+	}
+	.row .eng p{
+		font-size: 1.2em;
+	}
+	.row .eng h2{
+		font-size: 1.2em;
+	}
+}
+@media screen and (max-width:576px) {
+	.col-12>.shoutu{
+		max-width: 1500px;
+	}
+	.row>.col-1{
+		width: 100px;
+	}
+	.diyi-img {
+		top: 10rem;
+		left:2rem;
+		width: 350px;
+	}
+	.col-sm-12>.ertu{
+		max-width: 1500px;
+		position: relative;
+		right:600px;
+	}
+	.dier-text{
+		bottom: 6rem;
+	}
+	.centext-img{
+		width: 1300px;
+		position: relative;
+		right: 350px;
+	}
+	.col-sm-12>.dier-text{
+		margin: auto;
+	}
+}
