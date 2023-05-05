@@ -15,7 +15,7 @@
 		<link type="text/css" href="css/index.css" rel="stylesheet">
 		<link type="text/css" href="css/cebianlan-cn.css" rel="stylesheet">
 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-		
+
 
 		<link rel="stylesheet" href="css/main.css">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,20 +23,26 @@
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11111131980"></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		
-		  gtag('config', 'AW-11111131980');
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'AW-11111131980');
 		</script>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11111131980"></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		
-		  gtag('config', 'AW-11111131980');
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'AW-11111131980');
 		</script>
 
 	</head>
@@ -122,12 +128,14 @@
 				$('.videolist').each(function() { //遍历视频列表
 					$(this).click(function() { //这个视频被点击后执行
 						var video = $(this).attr('ipath'); //获取视频路径
-						$('.videos').html("<video id=\"video\" class=\"img-fluid\" style='width:1280px' src='" + video +
+						$('.videos').html("<video id=\"video\" class=\"img-fluid\" style='width:1280px' src='" +
+							video +
 							"' preload=\"auto\" controls=\"controls\" autoplay=\"autoplay\"></video><img onClick=\"close1()\" class=\"vclose\" src=\"image/gb.png\" width=\"25\" height=\"25\"/>"
-							);
+						);
 						$('.videos').show();
 					});
 				});
+
 				function close1() {
 					var v = document.getElementById('video'); //获取视频节点
 					$('.videos').hide(); //点击关闭按钮关闭暂停视频
@@ -433,66 +441,67 @@
 			</section>
 			<section class="slice">
 				<ul class="right_nav">
-				   <li class="d-none">
-				      <div class="iconBox oln_ser"> 
-				         <img src="image/qq.png">
-				         <h4>在线咨询</h4>
-				      </div>
-				      <div class="hideBox">
-				         <div class="hb">
-				            <h5>在线QQ咨询</h5>
-				            <div class="qqtalk">
-				               <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin= (qq号) &site=qq&menu=yes">
-				                  <span><img src="image/online.png" alt="点击发消息"
-				                        title="点击发消息" /></span>
-				                  <p>点击发消息</p>
-				               </a>
-				            </div>
-				         </div>
-				      </div>
-				   </li>
-				   <li>
-				      <div class="iconBox phe_num">
-				         <img src="image/rncall.png">
-				         <h4>联系电话</h4>
-				      </div>
-				      <div class="hideBox">
-				         <div class="hb">
-				            <h5>热线电话</h5>
-				            <p>0371&nbsp;—&nbsp;86507171</p>
-				         </div>
-				      </div>
-				   </li>
-				   <li>
-				      <div class="iconBox">
-				         <img src="image/wexin.png">
-				         <h4>微信扫码</h4>
-				      </div>
-				      <div class="hideBox">
-				         <div class="hb">
-				            <h5>微信扫一扫打开</h5>
-				            <img src='image/erwiema/weixin.jpg'>
-				         </div>
-				      </div>
-				   </li>
-				   <li>
-				      <div class="iconBox">
-				         <img src="image/youxiang.png">
-				         <h4>电子邮箱</h4>
-				      </div>
-				      <div class="hideBox">
-				         <div class="hb">
-				            <h5>电子邮箱</h5>
-				            <p>Chinamige@gmail.com</p>
-				         </div>
-				      </div>
-				   </li>
-				   <li>
-				      <div class="iconBox top">
-				         <img src="image/rntop.png">
-				         <h4>回到顶部</h4>
-				      </div>
-				   </li>
+					<li>
+						<a href="liuyan.html">
+							<div class="iconBox oln_ser">
+								<img src="image/liuyan.png">
+								<h4>在线留言</h4>
+							</div>
+						</a>
+						<div class="hideBox d-none">
+							<div class="hb">
+								<h5>1QQ1</h5>
+								<div class="qqtalk">
+									<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin= (qq) &site=qq&menu=yes">
+										<span><img src="image/online.png" alt="3" title="2" /></span>
+										<p>1</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="iconBox phe_num">
+							<img src="image/rncall.png">
+							<h4>联系电话</h4>
+						</div>
+						<div class="hideBox">
+							<div class="hb">
+								<h5>热线电话</h5>
+								<p>0371&nbsp;—&nbsp;86507171</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="iconBox">
+							<img src="image/wexin.png">
+							<h4>微信扫码</h4>
+						</div>
+						<div class="hideBox">
+							<div class="hb">
+								<h5>微信扫一扫打开</h5>
+								<img src='image/erwiema/weixin.jpg'>
+							</div>
+				  </div>
+					</li>
+					<li>
+						<div class="iconBox">
+							<img src="image/youxiang.png">
+							<h4>电子邮箱</h4>
+						</div>
+						<div class="hideBox">
+							<div class="hb">
+								<h5>电子邮箱</h5>
+								<p>Chinamige@gmail.com</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="iconBox top">
+							<img src="image/rntop.png">
+							<h4>回到顶部</h4>
+						</div>
+					</li>
 				</ul>
 			</section>
 			<script type="text/javascript" src='js/rightAsk-cn.js'></script>
@@ -504,7 +513,7 @@
 					<div class="container pt-4">
 						<div class="row">
 							<div class="col-lg-5 mb-lg-0">
-								<a href="index.html">
+								<a href="index-cn.html">
 									<img alt="Image placeholder" src="image/31313.png" id="footer-logo">
 								</a>
 							</div>
@@ -557,7 +566,7 @@
 
 							#douyin-icon {
 								background: url(image/erwiema/doyin.png) no-repeat;
-								background-size: 150px;
+								background-attachment: 0;ckground-size: 150px;
 							}
 
 							#baijiahao-icon {
@@ -576,13 +585,16 @@
 							i:hover #aicaigou-icon {
 								display: block;
 							}
+
 							#footer-logo {
 								width: 350px;
 							}
+
 							@media screen and (max-width:575px) {
 								#footer-logo {
 									width: 250px;
 								}
+
 								.foot-icon {
 									justify-content: center;
 								}
